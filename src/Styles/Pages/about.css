@@ -1,0 +1,31 @@
+#img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-box img {
+    border-radius: 50%;
+    margin: 40px;
+    max-width: 400px;
+}
+
+#name {
+    text-align: center;
+    color: #3B308C
+}
+
+#description {
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 300px;
+    color: #3B308C
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+

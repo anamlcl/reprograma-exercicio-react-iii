@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search-box input {
+    text-align: center;
+    padding: 6px;
+}
+
+#search-box h1 {
+    color: #3B308C;
+}
+
+#search-box input {
+    color: #000;
+    font-weight: 100;
+}
+
+.card {
+    width: 450px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #3B308C;
+}
+
+.card p {
+    color: #3B308C;
+    font-weight: 100;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    max-width: 400px;
+    height: 600px;
+}
